@@ -1,6 +1,6 @@
 {
-    "name": "solo",
-    "description": "A Ghost theme",
+    "name": "soloist",
+    "description": "A French and English Ghost theme based on Solo",
     "version": "1.0.0",
     "private": true,
     "engines": {
@@ -8,9 +8,9 @@
     },
     "license": "MIT",
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Gersande La Flèche",
+        "email": "ghost@gersande.com",
+        "url": "https://gersande.com"
     },
     "keywords": [
         "ghost",
@@ -79,6 +79,21 @@
                 "type": "select",
                 "options": ["Classic", "Typographic", "Parallax"],
                 "default": "Classic",
+                "group": "homepage"
+            },
+            "show_translate_button": {
+                "type": "boolean",
+                "default": true,
+                "group": "homepage"
+            },
+            "translation_url": {
+                "type": "text",
+                "default": "Please input valid url",
+                "group": "homepage"
+            },
+            "about_url": {
+                "type": "text",
+                "default": "Please input valid url",
                 "group": "homepage"
             }
         }

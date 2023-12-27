@@ -65,6 +65,11 @@
             </nav>
 
             <div class="gh-head-actions">
+                {{#if @custom.show_translate_button}}
+                    <a href="{{ @custom.translation_url }}" class="gh-translate gh-icon-btn">
+                       {{> "icons/translate"}}
+                    </a>
+                {{/if}}
                 {{#unless @site.members_enabled}}
                     {{^match @custom.navigation_layout "Stacked"}}
                         <button class="gh-search gh-icon-btn" aria-label="Search this site" data-ghost-search>{{> "icons/search"}}</button>
@@ -74,13 +79,13 @@
                     <div class="gh-head-members">
                         {{#unless @member}}
                             {{#unless @site.members_invite_only}}
-                                <a class="gh-head-link" href="#/portal/signin" data-portal="signin">Sign in</a>
-                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                                <a class="gh-head-link" href="#/portal/signin" data-portal="signin">{{t "Sign in"}}</a>
+                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">{{t "Subscribe"}}</a>
                             {{else}}
-                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signin" data-portal="signin">{{t "Sign in"}}</a>
                             {{/unless}}
                         {{else}}
-                            <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/account" data-portal="account">Account</a>
+                            <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/account" data-portal="account">{{t "Patron Account"}}</a>
                         {{/unless}}
                     </div>
                 {{/unless}}
@@ -95,7 +100,9 @@
             <nav class="gh-foot-menu">
                 {{navigation type="secondary"}}
             </nav>
-
+            <div class="gh-copyright">
+                <a class="gh-foot-ress" style="font-weight: 800; font-size: 1.6rem !important;" href="{{@site.url}}/rss">RSS {{> "icons/rss"}}</a>
+            </div>
             <div class="gh-copyright">
                 {{#unless @custom.footer_text}}
                     {{@site.title}} © {{date format="YYYY"}}. Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>

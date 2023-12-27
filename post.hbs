@@ -34,12 +34,17 @@
                                 {{/if}}
                                 <div class="gh-article-meta-wrapper">
                                 <h4 class="gh-author-name">
-                                    <a href="{{url}}">{{name}}</a>
+                                    <a href="{{ @custom.about_url }}</a>
                                 </h4>
                             {{/primary_author}}
                             <time class="gh-article-date" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time></div>
-                            {{#if primary_tag}}
-                                <a class="gh-article-tag" href="{{primary_tag.url}}" style="--tag-color: {{primary_tag.accent_color}}">{{primary_tag.name}}</a>
+                            {{!--#if primary_tag--}}
+                                <!--a class="gh-article-tag" href="{{primary_tag.url}}" style="--tag-color: {{primary_tag.accent_color}}">{{primary_tag.name}}</a-->
+                            {{!--/if--}}
+                            {{#if tags}}
+                                {{#foreach tags}}
+                                    <a class="gh-article-tag" href="{{url}}" style="--tag-color: {{accent_color}}">&#127991;  {{name}}</a>
+                                {{/foreach}}
                             {{/if}}
                         </div>
                     </aside>
@@ -52,11 +57,18 @@
                     </div>
                 {{/if}}
 
+                <div class="gh-isso-comments gh-canvas comment-container">
+                    <div class="comment container medium">
+                        <div id="isso-thread" data-title="{{title}}"></section>
+                        <noscript>Your browser does not support JavaScript. That's totally okay, except it means the comments section below this post is not visible.</noscript>
+                    </div>
+                </div> 
+
                 <footer class="gh-article-footer gh-canvas">
                     <nav class="gh-navigation">
                         <div class="gh-navigation-previous">
                             {{#prev_post}}
-                                <a class="gh-navigation-link" href="{{url}}">← Previous</a>
+                                <a class="gh-navigation-link" href="{{url}}">← {{t "Previous"}}</a>
                             {{/prev_post}}
                         </div>
 
@@ -64,7 +76,7 @@
 
                         <div class="gh-navigation-next">
                             {{#next_post}}
-                                <a class="gh-navigation-link" href="{{url}}">Next →</a>
+                                <a class="gh-navigation-link" href="{{url}}">{{t "Next"}} →</a>
                             {{/next_post}}
                         </div>
                     </nav>
