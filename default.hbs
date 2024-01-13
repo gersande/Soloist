@@ -98,16 +98,19 @@
     <footer class="gh-foot gh-outer">
         <div class="gh-foot-inner gh-inner">
             <nav class="gh-foot-menu">
+                <br>
                 {{navigation type="secondary"}}
             </nav>
             <div class="gh-copyright">
                 <a class="gh-foot-ress" style="font-weight: 800; font-size: 1.6rem !important;" href="{{@site.url}}/rss">RSS {{> "icons/rss"}}</a>
             </div>
-            <div class="gh-copyright">
+            <div class="gh-copyright" style="text-align: center;">
                 {{#unless @custom.footer_text}}
                     {{@site.title}} © {{date format="YYYY"}}. Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
                 {{else}}
                     {{@custom.footer_text}}
+                    <br>
+                    {{t "This blog is supported by "}} {{total_members}} {{t " free subscribers and "}} {{total_paid_members}} {{t "patrons"}}.
                 {{/unless}}
             </div>
         </div>
