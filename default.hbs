@@ -126,6 +126,13 @@
 
 {{ghost_foot}}
 
+<script>
+    // Storing HTML code block in a variable
+   var codeBlock = '{{t "This blog is supported by"}} {{total_members}} {{t "free subscribers and"}} {{total_paid_members}} {{t "patrons"}}';
+    // Inserting the code block to wrapper element
+    document.getElementById("subscriber-count").innerHTML = codeBlock;
+</script> 
+
 </body>
 
 </html>
