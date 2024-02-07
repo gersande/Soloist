@@ -50,6 +50,10 @@
                     </aside>
                 </section>
 
+                <div class="gh-comments gh-canvas">
+                    <h3 class="gh-comments-title sign-guestbook">{{t "The comments section is open below! Don't forget to sign the"}} <a href="{{ @custom.guestbook_url }}" style="text-decoration: underline;">guestbook</a> {{t "before leaving and come find me on the"}} <a href="{{ @custom.fediverse_url }}" style="text-decoration: underline;">{{t "fediverse"}}</a>.</h3>
+                </div>
+
                 {{#if comments}}
                     <div class="gh-comments gh-canvas">
                         <h2 class="gh-comments-title">{{comment_count empty="" single="comment" plural="comments"}}</h2>
@@ -57,7 +61,7 @@
                     </div>
                 {{/if}}
 
-                <div class="gh-isso-comments gh-canvas comment-container">
+                <div class="gh-isso-comments gh-canvas comment-container"> 
                     <div class="comment container medium">
                         <div id="isso-thread" data-title="{{title}}"></section>
                         <noscript>Your browser does not support JavaScript. That's totally okay, except it means the comments section below this post is not visible.</noscript>

@@ -95,6 +95,16 @@
                 "type": "text",
                 "default": "Please input valid url",
                 "group": "homepage"
+            },
+            "fediverse_url": {
+                "type": "text",
+                "default": "https://silvan.cloud/@gersande",
+                "group": "homepage"
+            },
+            "guestbook_url": {
+                "type": "text",
+                "default": "https://gersande.com/blog/guestbook",
+                "group": "homepage"
             }
         }
     },
