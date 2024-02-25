@@ -22,7 +22,7 @@
     </div>
     <br>
     <div class="gh-inner">
-        {{#get "posts" filter="visibility:members,visibility:paid" limit="10"}}
+        {{#get "posts" filter="visibility:members,visibility:paid" limit="20"}}
         {{#foreach posts}}
             <article class="gh-card {{post_class}}"{{#if primary_tag.accent_color}} style="--tag-color: {{primary_tag.accent_color}};"{{/if}}>
                 <a class="gh-card-link" href="{{url}}">
