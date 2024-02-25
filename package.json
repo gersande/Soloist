@@ -105,6 +105,11 @@
                 "type": "text",
                 "default": "https://gersande.com/blog/guestbook",
                 "group": "homepage"
+            },
+            "carbon_offset_text": {
+                "type": "text",
+                "default": "This website's carbon footprint is offset by ...",
+                "group": "homepage"
             }
         }
     },
