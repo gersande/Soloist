@@ -106,9 +106,9 @@
                 "default": "https://gersande.com/blog/guestbook",
                 "group": "homepage"
             },
-            "carbon_offset_text": {
+            "tipjar_url": {
                 "type": "text",
-                "default": "This website's carbon footprint is offset by ...",
+                "default": "https://gersande.com/blog/support",
                 "group": "homepage"
             }
         }
