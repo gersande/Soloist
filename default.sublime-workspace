@@ -1,0 +1,458 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"lighten"
+			],
+			[
+				"re",
+				"repeat"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"ree",
+				"repeat"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"image",
+				"background-image"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"footer-",
+				"footer-col-wrapper"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"project",
+				"projects-menu"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"introdu",
+				"introduction-p"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"light",
+				"lightcyan"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"scr",
+				"scrollify"
+			],
+			[
+				"im",
+				"image-orientation"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"fotn",
+				"font-kerning"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gersande/Documents/GitHub/bookbinding/index.html",
+		"/Users/gersande/Documents/GitHub/Soloist/post.hbs",
+		"/Users/gersande/Documents/GitHub/bookbinding/css/bookbinding.css",
+		"/Users/gersande/Documents/GitHub/bookbinding/css/pico.css",
+		"/Users/gersande/Documents/GitHub/bookbinding/js/rotating.js",
+		"/Users/gersande/Documents/GitHub/bookbinding/js/minimal-theme-switcher.js",
+		"/Users/gersande/Documents/GitHub/index/custom.css",
+		"/Users/gersande/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/gersande/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/gersande/Documents/GitHub/Soloist/package.json",
+		"/Users/gersande/Documents/GitHub/Soloist/locales/fr.json",
+		"/Users/gersande/Documents/GitHub/Soloist/locales/en.json",
+		"/Users/gersande/Documents/GitHub/fall2024/bootstrap.min.css",
+		"/Users/gersande/Documents/GitHub/fall2024/bootstrap.css",
+		"/Users/gersande/Documents/GitHub/fall2024/style.css",
+		"/Users/gersande/Documents/GitHub/fall2024/index.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_includes/footer.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_layouts/post.html",
+		"/Users/gersande/Documents/GitHub/index/index.css",
+		"/Users/gersande/Documents/GitHub/index/index.html",
+		"/Users/gersande/Documents/GitHub/glf landing page/cover/index.html",
+		"/Users/gersande/Documents/GitHub/startbootstrap-freelancer/dist/index.html",
+		"/Users/gersande/Documents/GitHub/examples/starter/index.html",
+		"/Users/gersande/Documents/GitHub/matcha2024/app/pages/index.html",
+		"/Users/gersande/Downloads/NemetonaElectronica/Index.html",
+		"/Users/gersande/Documents/GitHub/Soloist/default.hbs",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2024-02-21-polytheist-or-pagan-a-little-poll.md",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-09-23-druides-philosophes-chez-les-barbares-part-1.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2022-08-27-gaulish-religion-notes.markdown",
+		"/Users/gersande/Documents/GitHub/Soloist/page-guestbook.hbs",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/bloghoard.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/bookhoard.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2024-01-29-petitioning-abellion-for-his-favour-at-the-apple-orchard.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2024-01-19-welcome-to-jekyll.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2022-03-13-a-shrine-for-cathubodua.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_includes/custom_head.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/blog.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/archives.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/index.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_includes/tags.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/spirits.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_config.yml",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/about.markdown",
+		"/Users/gersande/Documents/GitHub/eleventy-photo-gallery/src/_includes/partials/nav.njk",
+		"/Users/gersande/Documents/GitHub/eleventy-photo-gallery/src/_includes/partials/home-gallery.njk",
+		"/Users/gersande/Documents/GitHub/eleventy-photo-gallery/src/_includes/partials/footer.njk",
+		"/Users/gersande/Documents/GitHub/eleventy-photo-gallery/src/about.njk",
+		"/Users/gersande/Documents/GitHub/eleventy-photo-gallery/src/_data/gallery.json",
+		"/Users/gersande/Documents/GitHub/eleventy-photo-gallery/src/_data/site.json",
+		"/Users/gersande/Documents/GitHub/macaron-cv/_data/data.yml",
+		"/Users/gersande/Documents/GitHub/macaron-cv/_config.yml",
+		"/Users/gersande/Documents/GitHub/macaron-cv/.gitignore",
+		"/Users/gersande/Documents/GitHub/macaron-cv/Gemfile",
+		"/Users/gersande/Documents/GitHub/macaron/.gitignore",
+		"/Users/gersande/Documents/GitHub/macaron/_layouts/default.html",
+		"/Users/gersande/Documents/GitHub/macaron/index.md",
+		"/Users/gersande/Documents/GitHub/macaron/_config.yml",
+		"/Users/gersande/Documents/GitHub/macaron/about.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/Gemfile",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2023-01-17-housekeeping-notes.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2022-03-19-notes-on-isabelle-stengers-reclaiming-animism-part-two.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2022-03-12-notes-on-isabelle-stengers-reclaiming-animism-part-one.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-10-18-notes-on-ancient-fire-by-segomaros-widugeni-2018.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2019-06-20-six-ways.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2019-06-08-a-ritual-for-zeus-amongst-oak-trees.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2019-06-06-tread-light-and-run-through-the-fire.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2018-05-28-spiralrunning-at-the-witches-sabbat.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2017-06-14-metamorphosis.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2017-04-17-five-witch-comrades-on-the-mountainside.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2016-05-30-shady-pine-trees-and-rivers-of-light-the-witches-sabbat-at-ravens-knoll-2016.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2015-06-05-reflections-on-bioregional-animism-consent-and-power-dynamics-ravens-knoll-2015.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_layouts/home.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2022-09-12-mythless.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/poetry.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_includes/pagination.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-09-16-dipping-my-toes-in-evergreen-waters.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-09-03-resurrection.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2022-04-22-on-slowing-down-way-down.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2022-03-07-dironas-crown.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-10-06-breaking-waves.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-09-20-orchardcraft.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/404.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2023-01-17-housekeeping-notes.md",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/.gitignore",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-09-20-orchardcraft.md",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2016-05-15-magical-arts-and-sacred-geographies.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2016-07-02-the-oil-god.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2019-06-20-six-ways.md",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2019-11-20-on-witchcraft.md",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_posts/2021-09-16-dipping-my-toes-in-evergreen-waters.md",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/_includes/paginator.html",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/index.markdown",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/README.md",
+		"/Users/gersande/Documents/GitHub/osfairye.github.io/microblog.markdown",
+		"/Users/gersande/Documents/GitHub/osfairy/microblog.markdown",
+		"/Users/gersande/Documents/GitHub/osfairy/bookhoard.markdown",
+		"/Users/gersande/Documents/GitHub/osfairy/about.markdown",
+		"/Users/gersande/Documents/GitHub/osfairy/_config.yml",
+		"/Users/gersande/Documents/GitHub/osfairy/.gitignore",
+		"/Users/gersande/Documents/ageCalculator.js",
+		"/Users/gersande/Documents/a2",
+		"/Users/gersande/Documents/GitHub/Soloist/page-pippin.hbs",
+		"/Users/gersande/Documents/GitHub/Drakkar2024/index.html",
+		"/Users/gersande/Documents/GitHub/Drakkar2024/cover.css",
+		"/Users/gersande/Documents/GitHub/Soloist/partials/loop.hbs",
+		"/Users/gersande/git repositories/bootstrap-5.3.2-examples/cover/index.html",
+		"/Users/gersande/git repositories/bootstrap-5.3.2/README.md",
+		"/Users/gersande/git repositories/drakkar2024/index.html",
+		"/Users/gersande/git repositories/contralto/page-support.hbs",
+		"/private/var/folders/7z/0j39r10s1dz25prfzcn6q24h0000gn/T/fz3temp-2/index.html",
+		"/Users/gersande/git repositories/troisdrakkar2024/index.html",
+		"/Users/gersande/Downloads/bootstrap-5.3.2-examples/heroes/index.html",
+		"/Users/gersande/git repositories/tea-journal/config.toml",
+		"/Users/gersande/git repositories/gallery/content/gallery/icelande-2017/maisonriviere.md",
+		"/Users/gersande/git repositories/gallery/themes/eternity/layouts/partials/head.html",
+		"/Users/gersande/git repositories/gallery/go.mod",
+		"/Users/gersande/gists/silvan.cloud blocked domains secret github gist/fedi_blocked_domains.csv",
+		"/Users/gersande/Documents/Silvan Cloud/blocklist.json",
+		"/Users/gersande/Documents/Silvan Cloud/somenonsense",
+		"/Users/gersande/git repositories/tea2022/tea/themes/hugo-creative-portfolio-theme/layouts/_default/single.html",
+		"/Users/gersande/git repositories/tea2022/tea/themes/hugo-creative-portfolio-theme/layouts/_default/list.html",
+		"/Users/gersande/git repositories/tea2022/tea/themes/hugo-creative-portfolio-theme/layouts/_default/baseof.html",
+		"/Users/gersande/git repositories/tea2022/tea/themes/hugo-creative-portfolio-theme/layouts/404.html",
+		"/Users/gersande/Documents/Witchcraft/Osfairy/reflections_on_bioregional_animism_consent_and_power_dynamics_gersande_la_fleche.md",
+		"/Users/gersande/Downloads/bootstrap-5.1.3-examples/heroes/index.html",
+		"/Users/gersande/Downloads/bootstrap-5.1.3-examples/starter-template/index.html",
+		"/Users/gersande/git repositories/drakkar2022/css/bootstrap.css",
+		"/Users/gersande/Downloads/sparrow-2.0.2-and-sparrow-1.7.1/sparrow-v2.0.2/README.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "default.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
